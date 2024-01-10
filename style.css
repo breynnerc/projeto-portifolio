@@ -20,7 +20,7 @@ div.sobre-mim{
     border-radius: 20px 0px 20px 0px;
     background-image: url(images/imagens-blogs-chamar-atencao-publico-1-removebg-preview.png);
     background-repeat: no-repeat;
-    background-size: 700px;
+    background-size: 100vh;
     box-shadow: 0px 3px 3px lightgray;
 }
 h2.sobre-mim{
@@ -29,7 +29,11 @@ h2.sobre-mim{
     margin: 0px;
 }
 p.sobre-mim{
-    text-align: right;
-    font-size: 2em;
-    margin: 20px 10px 20px 400px;
+    overflow: scroll;
+    text-align: left;
+    text-indent: 30px;
+    font-size: 4vh;
+    margin: 20px 10px 20px 45vh;
+    padding: 0px 0px 30px 65px;
+    max-block-size: 360px;
 }
