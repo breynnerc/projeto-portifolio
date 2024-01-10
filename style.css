@@ -7,13 +7,16 @@ header{
     width: 100%;
     background-image: linear-gradient(to top, white, rgba(32, 184, 32, 0.441));
 }
+nav{
+    padding: 10px;
+}
 main{
     background-color: white;
 }
 main > img{
     display: block;
     margin: auto;
-    width: 20%;
+    width: 50vh;
 }
 div.sobre-mim{
     height: 700px;
