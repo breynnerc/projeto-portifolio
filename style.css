@@ -13,6 +13,7 @@ main{
 main > img{
     display: block;
     margin: auto;
+    width: 50%;
 }
 div.sobre-mim{
     height: 700px;
